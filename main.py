@@ -26,7 +26,8 @@ def open_link_js(driver,link):
     
 
 if __name__ == '__main__':
-    url_cloudfare = 'https://nowsecure.nl/'
+    url_cloudfare = 'https://batdongsan.com.vn'
+    
     driver = setupDriver()
     open_link_js(driver,url_cloudfare)
     sleep(10)
